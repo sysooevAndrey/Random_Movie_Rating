@@ -10,6 +10,8 @@ class MovieAdapter(private val movieList: ArrayList<MovieResponse.Movie>) :
 
     private var typeCurrentViewHolder: Int = 0
 
+    private var previousAdapterPosition : Int? = null
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MessageViewHolder {
         val holderTypeId =
             if (typeCurrentViewHolder == 0) R.layout.movie_preview
@@ -34,6 +36,7 @@ class MovieAdapter(private val movieList: ArrayList<MovieResponse.Movie>) :
                     Toast.LENGTH_SHORT
                 ).show()
                 notifyItemChanged(adapterPosition)
+                previousAdapterPosition = adapterPosition
             }
         }
     }
