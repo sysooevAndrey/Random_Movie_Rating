@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_rectangle"
+    android:paddingVertical="@dimen/regular_padding"
+    android:paddingStart="@dimen/regular_padding"
+    android:layout_marginVertical="@dimen/regular_padding"
+    tools:ignore="RtlSymmetry">
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="96dp"
+        android:layout_height="144dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/regular_padding"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_poster_placeholder" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/small_padding"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kreadon"
+                android:textColor="?attr/primaryOnMainColor"
+                android:textSize="@dimen/large_text_size"
+                tools:text="Title" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/small_padding"
+            android:fontFamily="@font/kreadon"
+            android:lines="2"
+            android:maxLines="2"
+            android:textColor="?attr/secondaryOnMainColor"
+            android:textSize="@dimen/regular_text_size"
+            tools:text="genre, genre, genre" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/small_padding"
+                android:fontFamily="@font/kreadon"
+                android:text="@string/imbd_header"
+                android:textColor="?attr/primaryOnMainColor"
+                android:textSize="@dimen/regular_text_size" />
+
+            <TextView
+                android:id="@+id/imbd_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/regular_padding"
+                android:fontFamily="@font/kreadon"
+                android:textColor="?attr/secondaryOnMainColor"
+                android:textSize="@dimen/regular_text_size"
+                tools:text="0.0" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

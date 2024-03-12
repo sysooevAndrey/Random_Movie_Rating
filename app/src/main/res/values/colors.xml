@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_blue">#052A6E</color>
+    <color name="light_blue">#6B90D4</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#EBEBEB</color>
+    <color name="dark_grey">#9e9e9e</color>
+    <color name="black">#010C20</color>
+</resources><!--    https://colorscheme.ru/#3I11Tw0w0w0w0-->

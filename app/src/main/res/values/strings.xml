@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Random Movie Rating</string>
+    <string name="watch_later_header">Library</string>
+    <string name="setting_header">Setting</string>
+    <string name="filter_header">Filter</string>
+    <string name="my_rating_header">My rating</string>
+    <string name="imbd_header">IMBd:</string>
+    <string name="search">Search</string>
+</resources>

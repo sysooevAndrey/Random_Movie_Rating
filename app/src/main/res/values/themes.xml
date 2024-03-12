@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.RandomMovieRating" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="mainColor">@color/white</item>
+        <item name="primaryOnMainColor">@color/dark_blue</item>
+        <item name="secondaryOnMainColor">@color/light_blue</item>
+    </style>
+
+    <style name="Theme.RandomMovieRating" parent="Base.Theme.RandomMovieRating" />
+</resources>
